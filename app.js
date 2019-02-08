@@ -15,6 +15,7 @@ var history = require('./routes/history');
 var tips = require('./routes/tips');
 var one = require('./routes/option1');
 var two = require('./routes/option2');
+var help = require('./routes/help');
 // Example route
 // var user = require('./routes/user');
 
@@ -47,6 +48,7 @@ app.get('/history', history.viewHistory);
 app.get('/tips', tips.viewTips);
 app.get('/option1', one.viewOne);
 app.get('/option2', two.viewTwo);
+app.get('/help', help.viewHelp);
 // Example route
 // app.get('/users', user.list);
 
