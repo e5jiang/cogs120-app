@@ -1,0 +1,44 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #CC00AA;
+}
+
+.weigh_options {
+     padding-top: 15px;
+     margin-top: 40px;
+     margin-left: 450px;
+     margin-right: 450px;
+}
+
+.options_text {
+     padding-top: 20px;
+}
+
+.stress_tips {
+     padding-top: 20px;
+}
+
+.back_title div {
+     display: inline-block;
+}
+
+.option_scale {
+     padding-top: 15px;
+     margin-top: 30px;
+     margin-left: 380px;
+     margin-right: 380px;
+}
+
+.scale_pic {
+     margin-bottom:10px;
+}
+
+#optionbuttons {
+     
+}
