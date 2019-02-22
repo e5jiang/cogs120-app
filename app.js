@@ -17,6 +17,8 @@ var one = require('./routes/option1');
 var two = require('./routes/option2');
 var help = require('./routes/help');
 var login = require('./routes/login');
+var add_type = require('./routes/add_type');
+var add_options = require('./routes/add_options');
 // Example route
 // var user = require('./routes/user');
 
@@ -51,6 +53,8 @@ app.get('/option1', one.viewOne);
 app.get('/option2', two.viewTwo);
 app.get('/help', help.viewHelp);
 app.get('/login', login.viewLogin);
+app.get('/add_type', add_type.addType);
+app.get('/add_options', add_options.addOptions);
 // Example route
 // app.get('/users', user.list);
 

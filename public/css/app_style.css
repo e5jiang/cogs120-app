@@ -94,3 +94,7 @@
 .submit {
      padding-top: 15px;
 }
+
+.task {
+     float: left;
+}
